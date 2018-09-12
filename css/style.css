@@ -23,14 +23,15 @@ header {
 
 header img{
     width: 20vw;
+    padding: 15px 25px 15px;
     
 }
 
 .menu a{
     text-decoration: none;
     color: white;
-    margin-left: 22px;
-    font-size: 20px;
+    margin-left: 60px;
+    font-size: 30px;
     font-family: 'Anton', sans-serif;
 
 }
@@ -62,4 +63,32 @@ aside h2{
 .passo_a_passo{
     font-size: 20px;
     line-height: 30px;
+}
+
+.animação {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border: 2px solid rgb(2, 2, 2);
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: black;
+
+}
+
+.game {
+    width: 530px;
+}
+
+.video_game {
+    width: 530px;
+}
+
+section h2{
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+
 }
