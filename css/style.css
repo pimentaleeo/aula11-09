@@ -19,10 +19,12 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: black;
+    position: sticky;
+    top: 0px;
 }
 
 header img{
-    width: 20vw;
+    width: 17vw;
     padding: 15px 25px 15px;
     
 }
@@ -91,4 +93,34 @@ section h2{
     text-align: center;
     font-size: 40px;
 
+}
+
+.rede_social {
+    background-color:rgb(5, 5, 5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+}
+
+.icone {
+    width: 55px;
+    border-radius: 50%;
+}
+footer.rodape {
+    text-align: center;
+    background-color: rgb(216, 16, 16);
+    color: white;
+    align-items: center;
+}
+
+
+div.rodape>p {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    justify-content: flex-end;
+    width: 60%;
+    margin-right: 0%;   
 }
